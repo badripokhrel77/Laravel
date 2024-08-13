@@ -1,5 +1,5 @@
 <head>
-    <link rel="stylesheet" href="admin.css">
+    <link rel="stylesheet" href="css/admin.css">
 </head>
 
 <div class="wrapper">

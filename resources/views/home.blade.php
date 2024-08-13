@@ -1,12 +1,6 @@
-<head>
-    <link rel="stylesheet" href="homepage.css">
-<link rel="stylesheet" href="../navbar/nav.css">
-<link rel="stylesheet" href="../footer//footer.css">
-</head>
-<?php
-    include '../navbar/nav.php';
-    ?>
-<body>
+
+<section class="homepage">
+    @include('nav')
     <div class="home">
         <div class="page">
             <img src="../images//photo-1506059612708-99d6c258160e.avif" alt="Hpmepage">
@@ -43,11 +37,5 @@
             </div>
         </div>
     </section>
-
-
-
-
-</body>
-<?php 
-    include '../footer/footer.php';
-    ?>
+    @include('footer')
+</section>

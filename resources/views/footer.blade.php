@@ -1,6 +1,4 @@
-<head>
-    <link rel="stylesheet" href="footer.css">
-</head>
+
 <footer>
     <div class="logo1">
         <img src="../images//HRRS logo HD.webp" alt="HRRS">
@@ -26,3 +24,5 @@
         </div>
     </div>
 </footer>
+</body>
+</html>

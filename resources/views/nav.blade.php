@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <title>hotel room reservation system</title>
-    <link rel="stylesheet" href="{{url('css/nav.css')}}">
+    <link rel="stylesheet" href="{{url('css/Frontend.css')}}">
 
 </head>
 <body>
@@ -14,16 +14,13 @@
             </div>
             <div class="navlinks">
                 <ul id="menulist">
-                    <li> <a href="..//homepage/home.php">Home</a></li>
+                    <li> <a href="{{url('/')}}">Home</a></li>
                     <li> <a href="#about"> About</a></li>
                     <li> <a href="#rooms">Rooms</a></li>
                     <li> <a href="#service">Services</a></li>
-                    <li> <a href="#contact">Contact</a></li>
-                    <li> <a href="..//Login/loginForm.php">Login</a></li>
+                    <li> <a href="{{url('contact')}}">Contact</a></li>
+                    <li> <a href="{{url('login')}}">Login</a></li>
                 </ul>
             </div>
         </div>
     </header>
-    </body>
-    </html>
-    
