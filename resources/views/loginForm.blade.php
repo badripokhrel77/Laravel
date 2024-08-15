@@ -1,7 +1,7 @@
-
-    
+@extends('layout.main')
+@section('title','Login')
+@section('content')
     <section class="login">
-        @include('nav')
         <div class="wrapper">
             <form action="{{url('login')}}" method="post">
                 @csrf
@@ -27,6 +27,5 @@
                 </div>
             </form>
         </div>
-        @include('footer')
     </section>
-  
+  @endsection

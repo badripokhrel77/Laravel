@@ -1,6 +1,7 @@
-
+@extends('layout.main')
+@section('title','Home')
+@section('content')
 <section class="homepage">
-    @include('nav')
     <div class="home">
         <div class="page">
             <img src="../images//photo-1506059612708-99d6c258160e.avif" alt="Hpmepage">
@@ -37,5 +38,5 @@
             </div>
         </div>
     </section>
-    @include('footer')
 </section>
+@endsection

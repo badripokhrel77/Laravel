@@ -1,5 +1,7 @@
+@extends('layout.main')
+@section('title','Register')
+@section('content')
 <section class="reg">
-    @include('nav')
     <div class="Reg-form">
         <div class="header">
             <div class="head_c">
@@ -61,5 +63,5 @@
             </div>
         </form>
     </div>
-    @include('footer')
 </section>
+@endsection

@@ -1,3 +1,6 @@
+@extends('layout.main')
+@section('title','Edit')
+@section('content')
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css
 ">
 <form action="/update/{{ $User->id }}" method="post">
@@ -30,3 +33,4 @@
     </div>
     <button type="submit" class="btn btn-success">Update</button>
 </form>
+@endsection

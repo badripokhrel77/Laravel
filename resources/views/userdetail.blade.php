@@ -1,3 +1,6 @@
+@extends('layout.main')
+@section('title','User Details')
+@section('content')
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css
 ">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js
@@ -36,4 +39,5 @@
        </tbody>
     </table>
 </div>
+@endsection
  

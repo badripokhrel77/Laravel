@@ -1,6 +1,7 @@
-
+@extends('layout.main')
+@section('title','Book Room')
+@section('content')
 <section class="booked">
-  @include('nav')
   <div class="container">
     <form class="bookingForm" action="#" method="POST">
       <h2>Room Booking</h2>
@@ -45,6 +46,5 @@
     </form>
   </div>
   <script src="script.js"></script>
-  @include('footer')
 </section>
-
+@endsection

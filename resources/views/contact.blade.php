@@ -1,7 +1,7 @@
-
-   
+@extends('layout.main')
+@section('title','Contact')
+  @section('content') 
 <section class="contact">
-    @include('nav')
     <div class="container">
         <header>
             <h1>Contact Us</h1>
@@ -41,5 +41,5 @@
             </div>
         </main>
     </div>
-    @include('footer')
 </section>
+@endsection
